@@ -16,7 +16,8 @@ public class SimpleCode
 		driver.get("https://www.facebook.com");
 		Options o= driver.manage();
 		Window w=o.window();
-		w.maximize();	
+		w.maximize();
+		System.out.println("Changes done");
 	}
 
 }
